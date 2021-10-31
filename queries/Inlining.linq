@@ -5,10 +5,10 @@
   <Namespace>BenchmarkDotNet.Attributes</Namespace>
 </Query>
 
-BenchmarkRunner.Run<BenchmarkNullable>();
+BenchmarkRunner.Run<BenchmarkInline>();
 
 [BenchmarkDotNet.Attributes.MemoryDiagnoser]
-public class BenchmarkNullable
+public class BenchmarkInline
 {
     [Benchmark]
     public void StringInterpolationInline() => PrintAInline(0);
