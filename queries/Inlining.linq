@@ -5,6 +5,8 @@
   <Namespace>BenchmarkDotNet.Attributes</Namespace>
 </Query>
 
+// https://gist.github.com/guitarrapc/3611f37df9159c43795ade355c2db1e9
+// Inline optimization and string Interpolation. https://twitter.com/badamczewski01/status/1453993632365699072?s=20
 BenchmarkRunner.Run<BenchmarkInline>();
 
 [BenchmarkDotNet.Attributes.MemoryDiagnoser]

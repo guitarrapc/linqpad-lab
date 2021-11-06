@@ -5,10 +5,11 @@
   <Namespace>System.Runtime.CompilerServices</Namespace>
 </Query>
 
-BenchmarkRunner.Run<BenchmarkNullable>();
+// https://gist.github.com/guitarrapc/c045ba10ab2477688eb4e971a6ae942c
+BenchmarkRunner.Run<BenchmarkInterpolatedHandler>();
 
 [BenchmarkDotNet.Attributes.MemoryDiagnoser]
-public class BenchmarkNullable
+public class BenchmarkInterpolatedHandler
 {
     [Benchmark]
     public void StringInterpolationInline() => PrintAInline(0);

@@ -4,6 +4,8 @@
   <Namespace>BenchmarkDotNet.Attributes</Namespace>
 </Query>
 
+// https://gist.github.com/guitarrapc/e400d5bc932b5368e28113829895c189
+// Linq Where + First & First benchmark. https://twitter.com/badamczewski01/status/1454762216083836928
 BenchmarkRunner.Run<BenchmarkLinqWhereFirst>();
 
 [BenchmarkDotNet.Attributes.MemoryDiagnoser]

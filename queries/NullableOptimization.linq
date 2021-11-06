@@ -6,6 +6,7 @@
 </Query>
 
 // https://gist.github.com/guitarrapc/b90f3057597350c0e3e9571f503702cc
+// Nullable optimization. use is to determine Nullable<T> to T. https://twitter.com/badamczewski01/status/1452188929747308544
 BenchmarkRunner.Run<BenchmarkNullable>();
 
 [BenchmarkDotNet.Attributes.MemoryDiagnoser]

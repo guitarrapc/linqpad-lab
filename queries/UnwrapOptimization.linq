@@ -5,6 +5,8 @@
   <Namespace>BenchmarkDotNet.Running</Namespace>
 </Query>
 
+// https://gist.github.com/guitarrapc/d0b2b686567ff8e4a40bc324f31df2e3
+// Unbox T with Unsafe.Unbox<T>(val) will remove allocation. https://twitter.com/badamczewski01/status/1452918677855145988
 BenchmarkRunner.Run<BenchmarkUnbox>();
 
 [BenchmarkDotNet.Attributes.MemoryDiagnoser]

@@ -1,6 +1,7 @@
 <Query Kind="Program" />
 
-// ref: https://twitter.com/badamczewski01/status/1449319543336222725?s=20
+// https://gist.github.com/guitarrapc/5ad4a1611f465d3c7ccc674a24be23d1
+// variations of IsNullPrEmpty in C# ref: https://twitter.com/badamczewski01/status/1449319543336222725?s=20
 void Main()
 {
     string? x = null;

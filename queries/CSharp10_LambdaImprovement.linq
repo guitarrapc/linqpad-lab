@@ -1,5 +1,8 @@
 <Query Kind="Statements" />
 
+// https://gist.github.com/guitarrapc/28d79b2ded824253c724a262204598e0
+// C# 10 Lambda not has Natural Typeing, return type and Lambda Aatribute. https://ufcpp.net/study/csharp/cheatsheet/ap_ver10/#lambda-improvement
+// only work after .NET 6
 var x = 0;
 var f =
     [A]
